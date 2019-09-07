@@ -56,6 +56,8 @@ main{
   background-color: #FF9A4B;
   color: #fff;
   padding: 3px;
+  right: 0px;
+  width: 50px;
 }
 
 .title{
@@ -66,7 +68,15 @@ main{
   main {
     width: 90%;
   }
+  .step-box {
+    width: 90%;
+    float: none;
+    margin: auto;
+  }
   .step-box:nth-child(-n+2) {
     margin-bottom: 20px;
+  }
+  .step-box:last-child{
+    margin: auto;
   }
 }
